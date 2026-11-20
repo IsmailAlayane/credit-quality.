@@ -3,7 +3,7 @@ import os
 import math
 
 
-def calculate_risk(income, debt, age):
+def calculate_risk(income, debt):
     if income <= 0:
         return -1
 
@@ -17,7 +17,7 @@ def calculate_risk(income, debt, age):
         return " LOW "
 
 
-def calculate_risk2(income, debt, age):
+def calculate_risk2(income, debt):
     if income <= 0:
         return -1
 
